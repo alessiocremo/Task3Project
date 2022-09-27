@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.block1 {
+    background-color: #1F2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 130px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header p, .HeroSecondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Logo {
+    margin-right: 40px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.Links{
+    display: flex;
+    gap: 10px;
+}
+
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeroMainText {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.SignUpButton{
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+
+.rightpart {
+    margin-left: 40px;
+}
+
+.leftpart {
+    margin-right: 40px;
+}
+
+
+.block2{
+    padding-top: 40px;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 130px;
+    flex-direction: column;
+}
+
+.rinfo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-bottom: 30px;
+}
+
+
+.subpart {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.subb{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
