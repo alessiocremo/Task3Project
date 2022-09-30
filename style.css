@@ -19,7 +19,7 @@ header h1,.toaction {
     color: #F9FAF8;
 }
 
-header p, .HeroSecondaryText, .clicktosign {
+header p, .HeroSecondaryText, .clicktosign, .copyright {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -84,7 +84,6 @@ header {
     font-weight: 800;
     color: #1F2937;
     padding-bottom: 30px;
-    align-items: center;
     white-space: nowrap;
 }
 
@@ -95,12 +94,22 @@ header {
     text-align: center;
 }
 
+.subpart img {
+    border-radius: 10px;
+}
 
 
 .subb{
     display: flex;
     justify-content: space-between;
     gap:10px;
+}
+
+.subtext{
+    margin-top: 10px;
+    max-width: 120px;
+    font-size: 15px;
+    color: #1F2937;
 }
 
 
@@ -164,5 +173,18 @@ header {
     padding-left: 24px;
     padding-right: 24px;
 }
+
+.block5 {
+    background-color: #1F2937;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 
 
