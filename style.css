@@ -1,3 +1,7 @@
+html{
+    font-family: Tahoma, sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -10,12 +14,12 @@
     padding-bottom: 130px;
 }
 
-header h1 {
+header h1,.toaction {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-header p, .HeroSecondaryText {
+header p, .HeroSecondaryText, .clicktosign {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -51,25 +55,27 @@ header {
 .SignUpButton{
     background-color: #3882f6;
     border-radius: 5px;
+    padding: 5px 15px 5px 15px;
 }
 
 
 .rightpart {
-    margin-left: 40px;
+    padding-left: 40px;
 }
 
 .leftpart {
-    margin-right: 40px;
+    padding-right: 40px;
 }
 
 
 .block2{
     padding-top: 40px;
     display: flex;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 220px;
+    padding-right: 220px;
     padding-bottom: 130px;
     flex-direction: column;
+    justify-content: center;
 }
 
 .rinfo {
@@ -78,6 +84,8 @@ header {
     font-weight: 800;
     color: #1F2937;
     padding-bottom: 30px;
+    align-items: center;
+    white-space: nowrap;
 }
 
 
@@ -94,3 +102,67 @@ header {
     justify-content: space-between;
     gap:10px;
 }
+
+
+.block3 {
+
+    background-color: #E5E7EB;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-top: 80px;
+    color: #1F2937;
+}
+
+.sign {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+
+.block4{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 130px;
+    margin-bottom: 90px;
+    margin-right: 130px;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-bottom: 30px;
+    padding-right: 90px;
+}
+
+.lpart {
+    display: flex;
+    flex-direction: column;
+}
+
+.toaction{
+    font-weight: bold;
+}
+
+.signup{
+    background-color: #3882f6;
+    color:  #F9FAF8;
+    border: 3px solid #F9FAF8;
+    border-radius: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
