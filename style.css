@@ -29,6 +29,10 @@ header p, .HeroSecondaryText, .clicktosign, .copyright {
     color: #E5E7EB;
 }
 
+header a{
+    text-decoration: none;
+}
+
 .Logo {
     margin-right: 40px;
 }
